@@ -27,7 +27,7 @@ namespace NuclearReactor
         private void StartButton_Click(object sender, EventArgs e)
         {
             SoundPlayer player = new SoundPlayer(Properties.Resources.alert);
-            outputLabel.Text = "Reactor Meltdown!!!";
+            outputLabel.Text = "Time To Die!!!";
             reactor1StateLabel.BackColor = Color.Red;
             reactor2StateLabel.BackColor = Color.Red;
             Refresh();
